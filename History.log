@@ -1,0 +1,215 @@
+    1  ls
+    2  [200~ssh -i "rakeshrockerkumar.pem" ec2-user@ec2-18-188-215-13.us-east-2.compute.amazonaws.com~
+    3  ~ssh -i "rakeshrockerkumar.pem" ec2-user@ec2-18-188-215-13.us-east-2.compute.amazonaws.com
+    4  [200~
+    5  ssh -i "rakeshrockerkumar.pem" ec2-user@ec2-18-188-215-13.us-east-2.compute.amazonaws.com
+    6  cd Desktop/awspemfile/
+    7  ssh -i "rakeshrockerkumar.pem" ec2-user@ec2-18-188-215-13.us-east-2.compute.amazonaws.com
+    8  logout
+    9  ssh ec2-user@3.142.184.151
+   10  cd Desktop/awspemfile/
+   11  ssh -i "rakeshrockerkumar.pem" ec2-user@ec2-3-142-184-151.us-east-2.compute.amazonaws.com
+   12  cd ../
+   13  cd ../
+   14  ssh ec2-user@3.142.184.151
+   15  ssh ec2-user@3.142.184.151
+   16  mithun
+   17  bhaskar
+   18  ruthik
+   19  shishir
+   20  manan
+   21  balaji
+   22  mithun
+   23  bhaskar
+   24  ruthik
+   25  shishir
+   26  manan
+   27  balaji
+   28  #!/bin/bash      
+   29  #title           :
+   30  #description     :
+   31  #author		     :Mithun Reddy L
+   32  #date            :08112012
+   33  #version         :1.0    
+   34  #usage		     :
+   35  #Number of arguments on the command line.
+   36  echo '$#:' $#
+   37  #Process number of the current process.
+   38  echo '$$:' $$
+   39  #Display the 3rd argument on the command line, from left to right.
+   40  echo '$3:' $3
+   41  #Display the 10th argument on the command line, from left to right.
+   42  echo '${10}:' ${10}
+   43  #Display the name of the current shell or program.
+   44  echo '$0:' $0
+   45  #Display all the arguments on the command line using * symbol.
+   46  echo '$*:' $*
+   47  #Display all the arguments on the command line using @ symbol.
+   48  echo '$@:' $@
+   49  date
+   50  echo '$?:' $?
+   51  /c/Users/LENOVO/Downloads/04-user_defined_vars.sh
+   52  pwd
+   53  cd Downloads/
+   54  cat hello.sh
+   55  cat second
+   56  #!/bin/bash      
+   57  #title           :
+   58  #description     :
+   59  #author		     :Mithun Reddy Lacchannagari
+   60  #date            :08112012
+   61  #version         :1.0    
+   62  #usage		     :
+   63  echo "Enter the name of the file: "
+   64  read file_name
+   65  if [ -f $file_name ];  then 	if [ -w $file_name ]; 	then 		echo "Type something, the type Ctrl +d to Quit"; 		cat >> $file_name; 	else 		echo "The file do not have write permissions"; 	fi;  else 	 echo "$file_name not exists"; fi
+   66  #!/bin/bash      
+   67  #title           :
+   68  #description     :
+   69  #author		     :Mithun Reddy Lacchannagari
+   70  #date            :08112012
+   71  #version         :1.0    
+   72  #usage		     :
+   73  echo "Enter the name of the file: "
+   74  read file_name
+   75  if [ -f $file_name ];  then 	if [ -w $file_name ]; 	then 		echo "Type something, the type Ctrl +d to Quit"; 		cat >> $file_name; 	else 		echo "The file do not have write permissions"; 	fi;  else 	 echo "$file_name not exists"; fi
+   76  git --version
+   77  cd Desktop/
+   78  mkdir -v flipcartplus
+   79  cd flipcartplus/
+   80  pwd
+   81  git init
+   82  cd .git/
+   83  ls -la
+   84  cd ..
+   85  git status
+   86  git status
+   87  git status
+   88  git log
+   89  git --version
+   90  git --version
+   91  cd Desktop/flipcartplus/
+   92  pwd
+   93  git status
+   94  vi Dbutilities.java
+   95  git log
+   96  git status
+   97  git add .
+   98  git status
+   99  git commit -m "frist java script"
+  100  git config --global user.email "rakeshkumar169212@gmail.com"
+  101  git config --global user.name "Rakeesh07kumar"
+  102  git status
+  103  git commit -m "first java script"
+  104  git status
+  105  git log
+  106  git remote add origin https://github.com/Rakeesh07kumar/flipcartplus.git
+  107  git branch -M main
+  108  git push -u origin main
+  109  git log
+  110  vi mainframeutilities.java
+  111  pwd
+  112  ls
+  113  ls -l
+  114  cd ..
+  115  cd flipcartplus/
+  116  pwd
+  117  vi mainframeutilities.java
+  118  git log
+  119  git status
+  120  git add .
+  121  git status
+  122  git commit -m "second script"
+  123  git log
+  124  git branch -M main
+  125  git remote add origin https://github.com/rakesh-sep-devops/amazonplus.git
+  126  git branch -M gh
+  127  git remote add origin https://github.com/rakesh-sep-devops/amazonplus.git
+  128  git push -u origin main
+  129  git push -u origin gm
+  130  exit
+  131  cd Desktop/flipcartplus/
+  132  cat
+  133  ls
+  134  cat Dbutilities.java 
+  135  cat mainframeutilities.java 
+  136  git add .
+  137  git status
+  138  git log
+  139  git reset 12abf046a423
+  140  git status
+  141  git reset 84c5865a3
+  142  git status
+  143  git log
+  144  rm -f Dbutilities.java 
+  145  rm -f mainframeutilities.java 
+  146  ls -l
+  147  exit
+  148  cd Desktop/
+  149  rm -r flipcartplus/
+  150  rmdir flipcartplus/
+  151  rm -rf flipcartplus/
+  152  ls -l
+  153  ls -l
+  154  mkdir -v amazonplus_project
+  155  cd amazonplus_project/
+  156  vi Dbutilities.java
+  157  vi mainframeutilities.java
+  158  git status
+  159  ls
+  160  rm -rf Dbutilities.java 
+  161  rm -rf mainframeutilities.java 
+  162  ls
+  163  ls -l
+  164  git init
+  165  ls -la
+  166  cd .git
+  167  ls -la
+  168  cd ..
+  169  vi DbUtilities.java
+  170  git status
+  171  vi MainframeUtilities.java
+  172  git status
+  173  git add .
+  174  git add *
+  175  git status
+  176  git log
+  177  ok
+  178  git status
+  179  git reset DbUtilities.java
+  180  git status
+  181  git add .
+  182  git add *
+  183  git status
+  184  clear
+  185  ls -la
+  186  pwd
+  187  tree
+  188  sudo yum install tree -y
+  189  cd .git/
+  190  ls -l
+  191  cat index 
+  192  clear
+  193  cd Desktop/amazonplus_project/
+  194  ls
+  195  git status
+  196  git log
+  197  ls
+  198  git status
+  199  git branch
+  200  git branch devloper
+  201  git branch
+  202  git branch stage
+  203  git branch
+  204  git checkout devloper 
+  205  git branch
+  206  git push amz devloper 
+  207  git push amz devloper 
+  208  git branch
+  209  git diff master
+  210  ls
+  211  vi DbUtilities.java 
+  212  git status
+  213  clear
+  214  history
+  215  history >> History.log
